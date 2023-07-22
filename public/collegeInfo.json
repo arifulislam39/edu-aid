@@ -1,0 +1,139 @@
+[
+    {
+        "id": 1,
+        "college_image": "https://www.searchampsites.com/wp-content/uploads/2020/10/BGSU-sign-resized.jpg",
+        "college_name": "Bowling Green University",
+        "college_rating": 4.7,
+        "admission_date": "2024-01-15",
+        "admission_process": "Online application followed by entrance exam and interview",
+        "research_history": "Established in 1910, Bowling Green University has a rich research legacy.",
+        "research_work": "Prominent research in fields like Artificial Intelligence, Nanotechnology, and Environmental Science.",
+        "events": [
+          "Annual Tech Fest",
+          "Cultural Extravaganza",
+          "Entrepreneurship Summit"
+        ],
+        "event_details": {
+          "Annual Tech Fest": "Date: 2024-03-20, Theme: 'Innovating for Tomorrow'",
+          "Cultural Extravaganza": "Date: 2024-05-05, Theme: 'Celebrating Diversity'",
+          "Entrepreneurship Summit": "Date: 2024-09-12, Theme: 'Empowering Innovators'"
+        },
+        "sports": true,
+        "sports_categories": ["Football", "Basketball", "Volleyball", "Swimming", "Table Tennis"]
+      },
+      {
+        "id": 2,
+        "college_image": "https://www.sandiego.edu/business/images/home-majors-and-minors.jpg",
+        "college_name": "University of san diego",
+        "college_rating": 4.5,
+        "admission_date": "2024-06-01",
+        "admission_process": "Merit-based admissions with counseling",
+        "research_history": "University of san diego is known for its interdisciplinary research approach.",
+        "research_work": "Conducts research in fields like Biotechnology, Renewable Energy, and Data Science.",
+        "events": [
+          "Annual Cultural Fest",
+          "Literary Symposium",
+          "Sports Meet"
+        ],
+        "event_details": {
+          "Annual Cultural Fest": "Date: 2024-08-25, Theme: 'Celebrating Unity in Diversity'",
+          "Literary Symposium": "Date: 2024-09-10, Theme: 'Exploring the Power of Words'",
+          "Sports Meet": "Date: 2024-10-20, Theme: 'Fostering Team Spirit'"
+        },
+        "sports": true,
+        "sports_categories": ["Cricket", "Badminton", "Athletics", "Chess", "Hockey"]
+      },
+      {
+        "id": 3,
+        "college_image": "https://www.vidyavision.com/CollegeUploads/Photos/2017-20-12-16-46-32_s21.jpg",
+        "college_name": "PQR Institute of Technology",
+        "college_rating": 4.2,
+        "admission_date": "2024-07-10",
+        "admission_process": "Through a national-level entrance exam",
+        "research_history": "PQR Institute of Technology is renowned for its cutting-edge research.",
+        "research_work": "Leading research in areas such as Robotics, Internet of Things (IoT), and Cybersecurity.",
+        "events": [
+          "Techno-Cultural Fest",
+          "Innovation Summit",
+          "Hackathon"
+        ],
+        "event_details": {
+          "Techno-Cultural Fest": "Date: 2024-09-05, Theme: 'Connecting Arts and Technology'",
+          "Innovation Summit": "Date: 2024-10-15, Theme: 'Inspiring Innovations for a Better Future'",
+          "Hackathon": "Date: 2024-11-18, Theme: 'Hacking for Social Good'"
+        },
+        "sports": true,
+        "sports_categories": ["Tennis", "Squash", "Golf", "Yoga", "Karate"]
+      },
+      {
+        "id": 4,
+        "college_image": "https://images.squarespace-cdn.com/content/v1/5050d3f2e4b0ea4b7496cf16/1360877892539-JBIJ54D470PVVYZRND1E/ccsf_01.jpg",
+        "college_name": "LMN Arts College",
+        "college_rating": 4.0,
+        "admission_date": "2024-05-20",
+        "admission_process": "Admissions based on entrance exam and portfolio evaluation for arts programs.",
+        "research_history": "LMN Arts College emphasizes research in various forms of art and cultural studies.",
+        "research_work": "Conducts research on Visual Arts, Performing Arts, Literature, and Art History.",
+        "events": [
+          "Annual Art Exhibition",
+          "Literary Festival",
+          "Cultural Symposium"
+        ],
+        "event_details": {
+          "Annual Art Exhibition": "Date: 2024-07-05, Theme: 'A Glimpse of Creativity'",
+          "Literary Festival": "Date: 2024-08-10, Theme: 'Celebrating World Literature'",
+          "Cultural Symposium": "Date: 2024-09-22, Theme: 'Preserving Cultural Heritage'"
+        },
+        "sports": false,
+        "sports_categories": []
+      },
+      {
+        "id": 5,
+        "college_image": "https://kottayammedicalcollege.org/wp-content/uploads/2023/06/slide-7.jpeg",
+        "college_name": "EFG Medical College",
+        "college_rating": 4.8,
+        "admission_date": "2024-04-01",
+        "admission_process": "Entrance exam followed by an interview for medical programs.",
+        "research_history": "EFG Medical College is at the forefront of medical research and healthcare innovations.",
+        "research_work": "Focuses on research in areas such as Oncology, Neuroscience, and Public Health.",
+        "events": [
+          "Healthcare Conference",
+          "Medical Symposium",
+          "Community Health Camp"
+        ],
+        "event_details": {
+          "Healthcare Conference": "Date: 2024-06-20, Theme: 'Advancements in Medical Science'",
+          "Medical Symposium": "Date: 2024-08-05, Theme: 'Exploring Emerging Medical Technologies'",
+          "Community Health Camp": "Date: 2024-09-15, Theme: 'Caring for the Community'"
+        },
+        "sports": true,
+        "sports_categories": ["Cricket", "Football", "Athletics", "Swimming", "Table Tennis"]
+      },
+      {
+        "id": 6,
+        "college_image": "https://www.stu.edu/news/wp-content/uploads/2020/07/Site-Bldg-3-South_name-RETOUCHEDv2-1024x508.jpg",
+        "college_name": "STU Business School",
+        "college_rating": 4.6,
+        "admission_date": "2024-03-15",
+        "admission_process": "Through CAT/MAT/XAT scores followed by group discussion and personal interview.",
+        "research_history": "STU Business School actively engages in research related to business management and economics.",
+        "research_work": "Conducts research on areas like Marketing Strategies, Financial Analytics, and Sustainable Business.",
+        "events": [
+          "Business Conclave",
+          "Entrepreneurship Fair",
+          "Economics Summit"
+        ],
+        "event_details": {
+          "Business Conclave": "Date: 2024-05-10, Theme: 'Future of Global Business'",
+          "Entrepreneurship Fair": "Date: 2024-07-15, Theme: 'Empowering Entrepreneurs'",
+          "Economics Summit": "Date: 2024-09-08, Theme: 'Economic Resilience in Changing Times'"
+        },
+        "sports": true,
+        "sports_categories": ["Basketball", "Volleyball", "Badminton", "Chess", "Carrom"]
+      }
+      
+      
+      
+            
+      
+]
