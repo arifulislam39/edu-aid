@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "research_img": "https://149695847.v2.pressablecdn.com/wp-content/uploads/2020/03/Top-Applications-Of-Quantum-Computing-Everyone-Should-Know-About.jpg",
+        "research_name": "Quantum Computing Advancements",
+        "author_name": "John Smith",
+        "published_date": "2023-03-15",
+        "research_link":"https://gmo-research.com/news-events/articles/future-quantum-computing"
+      },
+      {
+        "id": 2,
+        "research_img": "https://assets.website-files.com/606233f23264bdbf2b60d618/610c0bdf9d31e5fc1663af10_DUbbVWDAAH1exhRhy3I4skSeaSlqqqH0llQjw4sXwqc8EoXnTlkimIqqFIpsJPyIDec3XFqTVaaB2gTQ7xhwenicKsBX9x71kZ1fN8kSdtu3ShNoEGYrsqyTuQegfxC3Ax9Rzzur.png",
+        "research_name": "Machine Learning for Natural Language Processing",
+        "author_name": "Emily Johnson",
+        "published_date": "2023-06-10",
+        "research_link": "https://devopedia.org/natural-language-processing"
+      },
+      {
+        "id": 3,
+        "research_img": "https://img.saurenergy.com/2017/01/Renewable-Energy.jpg",
+        "research_name": "Advances in Renewable Energy Technologies",
+        "author_name": "Michael Lee",
+        "published_date": "2023-02-28",
+        "research_link": "https://www.power-technology.com/comment/renewable-energy-technology-trends/"
+      },
+      {
+        "id": 4,
+        "research_img": "https://www.thelovepost.global/sites/default/files/styles/article_image_breakout/public/CRISPR-Gene-editing.jpg?itok=ypupqwKV",
+        "research_name": "Genetic Engineering and Its Ethical Implications",
+        "author_name": "Sarah Adams",
+        "published_date": "2023-07-01",
+        "research_link": "https://www.eou.edu/voice/2021/10/27/genetic-engineering-and-ethics-are-we-ready/"
+      }
+      
+      
+      
+      
+      
+]
