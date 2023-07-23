@@ -1,14 +1,24 @@
+import axios from "axios";
 import { useEffect, useState } from "react";
 
 const CollegeCards = () => {
     const [cards, setCards]= useState([]);
 
-    useEffect  (()=>{
-        fetch("collegeInfo.json")
-        .then(res=>res.json())
-        .then(data => setCards(data))
-    })
+  useEffect(() => {
+    axios
+      .get("http://localhost:5000/college")
+      .then((response) => {
+        // Handle the response data
+        console.log(response.data);
+        setCards(response.data);
+      })
+      .catch((error) => {
+        // Handle any errors
+        console.error(error);
+      });
+  }, []);
 
+    
     return (
         <div className="p-10 md:p-20">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">

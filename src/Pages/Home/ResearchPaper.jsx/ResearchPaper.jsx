@@ -1,13 +1,26 @@
+import axios from "axios";
 import { useEffect, useState } from "react";
 
 const ResearchPaper = () => {
   const [researches, setResearches] = useState([]);
 
   useEffect(() => {
-    fetch("researchInfo.json")
-      .then((res) => res.json())
-      .then((data) => setResearches(data));
-  });
+    axios
+      .get("http://localhost:5000/researchPaper")
+      .then((response) => {
+        // Handle the response data
+        console.log(response.data);
+        setResearches(response.data);
+      })
+      .catch((error) => {
+        // Handle any errors
+        console.error(error);
+      });
+  }, []);
+
+
+
+  
   return (
     <div className="py-20 px-10">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">

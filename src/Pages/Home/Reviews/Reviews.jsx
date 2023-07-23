@@ -8,15 +8,25 @@ import 'swiper/css/navigation';
 
 // import './styles.css';
 import { Autoplay, Pagination } from 'swiper/modules';
+import axios from "axios";
 
 const Reviews = () => {
     const [reviews, SetReviews] =useState([]);
 
-    useEffect(()=>{
-        fetch("review.json")
-        .then(res=>res.json())
-        .then(data=>SetReviews(data))
-    })
+
+    useEffect(() => {
+        axios
+          .get("http://localhost:5000/reviews")
+          .then((response) => {
+            // Handle the response data
+            console.log(response.data);
+            SetReviews(response.data);
+          })
+          .catch((error) => {
+            // Handle any errors
+            console.error(error);
+          });
+      }, []);
     return (
         <div className="py-20">
             <Swiper
