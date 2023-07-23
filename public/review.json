@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "college_name": "ABC University",
+        "review": "The faculty and courses offered here are exceptional. I had a great learning experience.",
+        "reviewer_name": "John Doe",
+        "rating": 4.5,
+        "reviewer_img": "https://example.com/images/john_doe.jpg"
+      },
+      {
+        "id": 2,
+        "college_name": "XYZ College",
+        "review": "The campus infrastructure is top-notch, and the staff is very supportive. Highly recommended!",
+        "reviewer_name": "Jane Smith",
+        "rating": 4.8,
+        "reviewer_img": "https://example.com/images/jane_smith.jpg"
+      },
+      {
+        "id": 3,
+        "college_name": "PQR Institute",
+        "review": "I had an amazing time during my college days. The extracurricular activities were diverse and enriching.",
+        "reviewer_name": "Michael Johnson",
+        "rating": 4.2,
+        "reviewer_img": "https://example.com/images/michael_johnson.jpg"
+      },
+      {
+        "id": 4,
+        "college_name": "LMN University",
+        "review": "The professors are highly knowledgeable and passionate about their subjects. Best place to pursue higher studies.",
+        "reviewer_name": "Emily Brown",
+        "rating": 4.7,
+        "reviewer_img": "https://example.com/images/emily_brown.jpg"
+      }
+      
+      
+      
+      
+]
