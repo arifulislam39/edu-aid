@@ -7,7 +7,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 // import './styles.css';
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Pagination } from 'swiper/modules';
 
 const Reviews = () => {
     const [reviews, SetReviews] =useState([]);
@@ -29,8 +29,8 @@ const Reviews = () => {
         pagination={{
           clickable: true,
         }}
-        navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
+       
+        modules={[Autoplay, Pagination]}
         className="mySwiper"
       >
         
