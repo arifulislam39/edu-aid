@@ -20,23 +20,21 @@ const Header = () => {
         style={{ backgroundImage: `url(${img})` }}
       >
         <div className="hero bg-opacity-60"></div>
-        <div className="hero-content text-center text-neutral-content">
-          <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-            <p className="mb-5">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+        <div className="hero-content text-center text-white ">
+          <div className="max-w-auto">
+            <h1 className="mb-5 text-7xl font-bold uppercase">Education Is About Academic Excellence</h1>
+            <p className="mb-5 font-bold text-xl">
+            Empower yourself with the knowledge and skills gained through Applying these Colleges.
             </p>
-            <button className="btn btn-primary">Get Started</button>
+           
 
             {/* search */}
-            <div className="join">
+            <div className="join mt-10">
               <div>
                 <div>
                   <input
                     className="input input-bordered join-item text-black"
-                    placeholder="Search"
+                    placeholder="Search by College name"
                     onChange={(e) => setSearch(e.target.value)}
                   />
                 </div>
