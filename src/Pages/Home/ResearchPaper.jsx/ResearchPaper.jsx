@@ -25,7 +25,7 @@ const ResearchPaper = () => {
     <div className="py-20 px-10">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         {researches.map((research) => (
-          <div className="hero  bg-base-200" key={research.id}>
+          <div className="hero  bg-base-200" key={research._id}>
             <div className="hero-content flex-col lg:flex-row">
               <img
                 src={research.research_img}

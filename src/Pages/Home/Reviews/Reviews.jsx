@@ -46,7 +46,7 @@ const Reviews = () => {
         
 
         {
-            reviews.map((review=><SwiperSlide key={review.id}><div className="text-center bg-slate-300">
+            reviews.map((review=><SwiperSlide key={review._id}><div className="text-center bg-slate-300">
                 <div className="w-full h-48 "><h2>
                 {review.college_name}
                 </h2>
