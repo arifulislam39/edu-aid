@@ -1,5 +1,5 @@
 import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../Providers/AuthProvider";
 import { useContext } from "react";
 import Swal from "sweetalert2";
@@ -8,6 +8,9 @@ import GoogleLogin from "./GoogleLogin";
 const Login = () => {
     const { signIn } = useContext(AuthContext);
     const { register, handleSubmit,reset} = useForm();
+    const navigate = useNavigate();
+  const location = useLocation();
+  const from = location.state?.from?.pathname || "/";
 
     const onSubmit = (data) => {
         console.log(data);
@@ -30,6 +33,7 @@ const Login = () => {
     
     
             console.log(user);
+            navigate(from, { replace: true });
           })
           .catch((error) => {
             console.log(error);

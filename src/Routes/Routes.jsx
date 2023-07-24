@@ -7,6 +7,8 @@ import Colleges from "../Pages/Colleges/Colleges";
 import Admission from "../Pages/Admission/Admission";
 import MyCollege from "../Pages/MyCollege/MyCollege";
 import ViewDetails from "../Pages/ViewDetails/ViewDetails";
+import CollegeAdmission from "../Pages/CollegeAdmission/CollegeAdmission";
+import PrivateRoute from "./PrivateRoute";
 
 
 export const router = createBrowserRouter([
@@ -40,7 +42,12 @@ export const router = createBrowserRouter([
         },
         {
           path:'/viewDetails/:id',
-          element:<ViewDetails></ViewDetails>,
+          element:<PrivateRoute><ViewDetails></ViewDetails></PrivateRoute>,
+          loader:({params})=> fetch(`http://localhost:5000/college/${params.id}`)
+        },
+        {
+          path:'/collegeAdmission/:id',
+          element:<CollegeAdmission></CollegeAdmission>,
           loader:({params})=> fetch(`http://localhost:5000/college/${params.id}`)
         },
       ]

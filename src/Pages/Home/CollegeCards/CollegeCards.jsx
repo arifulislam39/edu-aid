@@ -1,9 +1,10 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 const CollegeCards = () => {
     const [cards, setCards]= useState([]);
+    
 
   useEffect(() => {
     axios
@@ -12,8 +13,11 @@ const CollegeCards = () => {
         // Handle the response data
         console.log(response.data);
         setCards(response.data);
+     
+        
       })
       .catch((error) => {
+        
         // Handle any errors
         console.error(error);
       });
