@@ -6,7 +6,7 @@ const ResearchPaper = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/researchPaper")
+      .get("https://eduaid-server.vercel.app/researchPaper")
       .then((response) => {
         // Handle the response data
         console.log(response.data);

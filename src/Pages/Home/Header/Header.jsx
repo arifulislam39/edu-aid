@@ -5,7 +5,7 @@ const Header = () => {
     const [college, setCollege]=useState([]);
   const [search, setSearch] = useState("");
   const handleSearch = () => {
-      fetch(`http://localhost:5000/searchByCollegeName/${search}`)
+      fetch(`https://eduaid-server.vercel.app/searchByCollegeName/${search}`)
         .then((res) => res.json())
         .then((data) =>setCollege(data));
         setSearch("");

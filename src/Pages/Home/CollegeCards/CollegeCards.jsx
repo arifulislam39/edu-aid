@@ -8,7 +8,7 @@ const CollegeCards = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/college")
+      .get("https://eduaid-server.vercel.app/college")
       .then((response) => {
         // Handle the response data
         console.log(response.data);

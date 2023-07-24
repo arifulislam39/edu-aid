@@ -43,12 +43,12 @@ export const router = createBrowserRouter([
         {
           path:'/viewDetails/:id',
           element:<PrivateRoute><ViewDetails></ViewDetails></PrivateRoute>,
-          loader:({params})=> fetch(`http://localhost:5000/college/${params.id}`)
+          loader:({params})=> fetch(`https://eduaid-server.vercel.app/college/${params.id}`)
         },
         {
           path:'/collegeAdmission/:id',
           element:<CollegeAdmission></CollegeAdmission>,
-          loader:({params})=> fetch(`http://localhost:5000/college/${params.id}`)
+          loader:({params})=> fetch(`https://eduaid-server.vercel.app/college/${params.id}`)
         },
       ]
     },

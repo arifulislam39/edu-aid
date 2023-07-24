@@ -50,7 +50,7 @@ const CollegeAdmission = () => {
             college_name,
             college_rating,
         };
-        fetch("http://localhost:5000/college", {
+        fetch("https://eduaid-server.vercel.app/college", {
           method: "POST",
           headers: {
             "content-type": "application/json",

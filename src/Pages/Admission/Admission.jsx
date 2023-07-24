@@ -8,7 +8,7 @@ const Admission = () => {
 
     useEffect(() => {
       axios
-        .get("http://localhost:5000/colleges")
+        .get("https://eduaid-server.vercel.app/colleges")
         .then((response) => {
           // Handle the response data
           console.log(response.data);

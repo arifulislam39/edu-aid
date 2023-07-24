@@ -16,7 +16,7 @@ const Reviews = () => {
 
     useEffect(() => {
         axios
-          .get("http://localhost:5000/reviews")
+          .get("https://eduaid-server.vercel.app/reviews")
           .then((response) => {
             // Handle the response data
             console.log(response.data);
